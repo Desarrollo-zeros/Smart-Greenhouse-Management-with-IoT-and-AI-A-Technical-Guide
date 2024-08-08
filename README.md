@@ -123,7 +123,6 @@ def retrain_model(new_data, labels):
 ```
 Representación del Algoritmo
 mermaid
-Copiar código
 flowchart TD
     A[Recolección de Datos] --> B[Preprocesamiento de Datos]
     B --> C[Análisis y Predicción]
