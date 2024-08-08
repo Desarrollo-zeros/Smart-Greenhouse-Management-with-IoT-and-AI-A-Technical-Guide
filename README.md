@@ -75,7 +75,7 @@ def predict_needs(processed_data):
     return predictions
 ```
 
-4. Implementación de Ajustes
+### 4. Implementación de Ajustes
 Acción: Realización de ajustes automáticos en riego, iluminación y control climático
 
 Ajuste de riego basado en la predicción de necesidades hídricas
@@ -95,7 +95,7 @@ def implement_adjustments(predictions):
     ClimateController.adjust(climate_needs)
 ```
 
-5. Envío de Alertas
+### 5. Envío de Alertas
 Proceso: Generación de alertas en caso de condiciones críticas
 
 Envío de notificaciones a dispositivos móviles de los operadores
@@ -111,7 +111,7 @@ def check_and_alert(data):
 
 ```
 
-6. Aprendizaje y Mejora Continua
+### 6. Aprendizaje y Mejora Continua
 Proceso: Reentrenamiento del modelo basado en nuevos datos
 
 Uso de datos recolectados para mejorar continuamente el modelo predictivo
